@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    /* box-shadow: 2px 9px 5px magenta; */
+
+}
+#nav>a{
+    height: 73px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#nav>a:hover{
+    /* transition: 0.3s; */
+    /* color: orange; */
+}
+
+/*Css for CreateUser*/
+#fromBox{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fromBox>form{
+    height: 360px;
+    width: 300px;
+    background-color:rgb(255,255,255);
+    color: black;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+#fromBox>form>button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(31,115,183);
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+}
+#fromBox>form>button{
+ transform: scale3d(1.2);
+ cursor: pointer;   
+}
+#fromBox>footer>p{
+    
+ border-top:2px solid brown; 
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ color: white;
+ font-size: 20px;
+ margin-right: 50px;
+}
+#usr>table{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 0;
+    /* border-radius: 4px; */
+    align-items: center;
+}
+#usr>table>tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;   
+}
+#usr>table>tr>th{
+    background-color: rgb(76, 74, 74);
+    color: antiquewhite;
+    height: 40px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+#usr>table>tr>td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 34%;
+    border: 2px solid rgb(64, 61, 61);
+    border-spacing: 0;
+    background-color:antiquewhite;
+}
+#usr>table>tr>td>button{
+    background-color: darkred;
+    color: white;
+    height: 25px;
+    width: 55px;
+    /* border-radius: 6px; */
+    border: 0;
+    
+}
+#usr>table>tr>td>button>a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
